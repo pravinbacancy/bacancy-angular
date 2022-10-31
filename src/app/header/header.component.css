@@ -1,0 +1,29 @@
+nav{
+    background: #dddddd;
+    padding: 15px;
+    border-radius: 2px;
+    display: flex;
+}
+
+.left-block{
+    width: 20%;
+}
+
+.site-name{
+    font-size: 30px;
+}
+
+.right-block{
+    width: 80%;
+    text-align: right;
+}
+
+.nav-links{
+    margin-top: 10px;
+}
+
+.nav-links > a {
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+}

@@ -1,0 +1,19 @@
+.body-container{
+    display: flex;
+    background: #7c7c7c;
+    margin-top: 2%;
+    padding: 3%;
+    height: 65vh;
+}
+
+.section-one, .section-two{
+    width: 50%;
+    background: #ffffff;
+    border-radius: 5px;
+    height: 300px;
+    padding: 1%;
+}
+
+.section-two{
+    margin-left: 2%;
+}
