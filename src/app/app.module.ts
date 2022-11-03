@@ -7,6 +7,8 @@ import { FooterComponent } from './footer/footer.component';
 import { MainBodyComponent } from './main-body/main-body.component';
 import { BodySectionOneComponent } from './body-section-one/body-section-one.component';
 import { BodySectionTwoComponent } from './body-section-two/body-section-two.component';
+import { FormsModule } from '@angular/forms';
+import { CommonDropdownComponent } from './common-dropdown/common-dropdown.component';
 
 @NgModule({
   declarations: [
@@ -15,10 +17,12 @@ import { BodySectionTwoComponent } from './body-section-two/body-section-two.com
     FooterComponent,
     MainBodyComponent,
     BodySectionOneComponent,
-    BodySectionTwoComponent
+    BodySectionTwoComponent,
+    CommonDropdownComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

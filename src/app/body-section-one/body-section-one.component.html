@@ -1,1 +1,5 @@
-<p>body-section-one works!</p>
+<div class="container">
+    <label>dropdown value</label><br>
+    <input type="text" [(ngModel)]="selectedUserName">
+    <app-common-dropdown [userList]="userList" [selectedUser]="selectedUser" (onUserSelectCallback)="onUserSelectHandler($event)"></app-common-dropdown>
+</div>
